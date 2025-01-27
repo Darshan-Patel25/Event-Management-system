@@ -1,11 +1,10 @@
 import React from "react";
+import "../css/Footer.css"; // Custom footer styling
 
 const Footer = () => {
   return (
-    <footer className="mt-6 mb-2 relative bottom-0 w-full bg-gray-700 py-1 text-center">
-      <div className="container mx-auto">
-        <span className="font-sans text-white font-semibold">Ease Events</span>
-      </div>
+    <footer className="footer bg-gray-800 text-white text-center p-4 mt-auto">
+      <p>&copy; 2025 Event Management. All rights reserved.</p>
     </footer>
   );
 };
