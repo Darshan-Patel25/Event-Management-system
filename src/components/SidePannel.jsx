@@ -34,6 +34,7 @@ const SidePannel = () => {
 
   return (
     <div className="sidebar w-72 bg-gray-100 border-r rounded-md">
+      <div className="Logo">LOGO</div>
       <PanelMenu model={items} />
     </div>
   );
